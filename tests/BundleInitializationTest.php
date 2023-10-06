@@ -65,7 +65,6 @@ class BundleInitializationTest extends KernelTestCase
     private static function getSymfonyVersion()
     {
         $kernel = self::bootKernel();
-
         return $kernel::VERSION;
     }
 }
